@@ -1,18 +1,5 @@
-scalr:
-  allowed_clouds:
-  - ec2
-  - gce
-  - azure
-  - vmware
-  - cloudstack
-  - idcf
-  - openstack
-  - ocs
-  - otc
-  - rackspacenguk
-  - rackspacengus
-  - hpcloud
-  - mirantis
-  - vio
-  - cisco
- 
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: 15 minutes delay
+      shell: sleep 900 && echo "15 minutes delay"
