@@ -1,0 +1,5 @@
+- name: Hello Kostya 
+  hosts: all
+  tasks:
+    - name: 10000 years ago delay
+      shell: sleep 90000 && echo "10000 years ago delay"
