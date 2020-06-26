@@ -2,5 +2,5 @@ kostya:
   name: Hello World Sample
   hosts: all
   tasks:
-    - name: 15 minutes delay
-      shell: sleep 900 && echo "15 minutes delay"
+    name: 15 minutes delay
+    shell: sleep 900 && echo "15 minutes delay"
